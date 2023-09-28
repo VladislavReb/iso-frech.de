@@ -52,11 +52,17 @@
 
         &__button {
           margin-top: 10px;
-          padding: 10px 10px;
+          padding: 8px 18px;
           font-size: 14px;
-          color: $mt_color;
+          color: $orange_color;
           cursor: pointer;
-          background-color: $bkg_color;
+          background-color: $mt_color;
+          border-radius: 7px;
+
+          &:hover {
+            background-color: $bkg_color;
+            color: $mt_color;
+          }
         }
 
         .active {
