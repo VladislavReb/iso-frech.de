@@ -1,0 +1,31 @@
+.first_section {
+
+  &__content {
+    overflow: hidden;
+
+    .main__img {
+      width: 1080px;
+      height: 700px;
+    }
+
+    .main__title {
+      position: absolute;
+      top: 400px;
+      max-width: 700px;
+      padding: 10px;
+      background-color: $orange_color;
+      opacity: 0;
+      animation: block 4s forwards;
+
+      @keyframes block {
+        0% {opacity: 0}
+        100% {opacity: 1}
+      }
+    }
+
+    & h1 {
+      color: $mt_color;
+      font-size: 55px;
+    }
+  }
+}

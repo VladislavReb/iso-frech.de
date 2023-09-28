@@ -1,0 +1,37 @@
+.fourth_section {
+  padding: 85px 0;
+  background-color: $bkg_color_2;
+
+  &__content {
+    .fs__description {
+      padding-top: 25px;
+      display: flex;
+      justify-content: space-between;
+
+      &__1 {
+        max-width: 630px;
+      }
+
+      &__2 {
+        max-width: 350px;
+
+        .fs__list li {
+          list-style-type: square;
+        }
+      }
+    }
+
+    .fs__title {
+      margin-top: 15px;
+      color: $orange_color;
+      font-size: 23px;
+      font-weight: bold;
+    }
+
+    .fs__text {
+      padding-top: 15px;
+      color: $mt_color;
+      font-size: 17px;
+    }
+  }
+}

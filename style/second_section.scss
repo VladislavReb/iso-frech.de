@@ -1,0 +1,21 @@
+.second_section {
+  margin-top: -125px;
+  padding-top: 175px;
+  background-color: $bkg_color_2;
+
+  &__content {
+    padding: 0 100px 55px;
+
+    .sec_s__title {
+      color: $orange_color;
+      font-size: 23px;
+      font-weight: bold;
+    }
+
+    .sec_s__text {
+      padding-top: 15px;
+      color: $mt_color;
+      font-size: 17px;
+    }
+  }
+}

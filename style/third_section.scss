@@ -1,0 +1,68 @@
+.third_section {
+  padding: 45px 0 85px;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    .ts__title {
+      color: $orange_color;
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .ts__services {
+      padding: 45px 5px 10px;
+      display: flex;
+      justify-content: space-between;
+
+      .ts__service {
+        padding: 25px 10px;
+        min-height: 370px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        background-color: $bkg_color_2;
+        box-shadow: 5px 5px 5px black;
+
+        &:hover {
+          background-color: $orange_color;
+        }
+
+        &__img {
+          width: 79px;
+          height: 79px;
+        }
+
+        &__title {
+          color: $mt_color;
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        &__text {
+          text-align: center;
+          color: $mt_color;
+          font-size: 17px;
+        }
+
+        &__button {
+          margin-top: 10px;
+          padding: 10px 10px;
+          font-size: 14px;
+          color: $mt_color;
+          cursor: pointer;
+          background-color: $bkg_color;
+        }
+
+        .active {
+          display: none;
+        }
+      }
+    }
+  }
+}
