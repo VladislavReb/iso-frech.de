@@ -130,7 +130,7 @@ body {
 }
 .second_section__content .service__photo__2 {
   transform: translateX(150%);
-  /*animation: block2 2.5s forwards;*/
+  /*animation: block_2 2.5s forwards;*/
 }
 @keyframes block_2 {
   0% {
