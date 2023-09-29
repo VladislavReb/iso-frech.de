@@ -55,9 +55,9 @@ body {
   padding: 10px;
   background-color: #faa633;
   opacity: 0;
-  animation: block 4s forwards;
+  animation: magic 4s forwards;
 }
-@keyframes block {
+@keyframes magic {
   0% {
     opacity: 0;
   }
@@ -156,6 +156,37 @@ body {
 .fourth_section {
   padding: 85px 0;
   background-color: #251D1A;
+}
+.fourth_section__content .fs__img {
+  display: flex;
+}
+.fourth_section__content .fs__img__1, .fourth_section__content .fs__img__2 {
+  width: 540px;
+  height: 300px;
+}
+.fourth_section__content .fs__img__1 {
+  transform: translateX(-150%);
+  /*animation: block 2.5s forwards;*/
+}
+@keyframes block {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.fourth_section__content .fs__img__2 {
+  transform: translateX(150%);
+  /*animation: block2 2.5s forwards;*/
+}
+@keyframes block_2 {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .fourth_section__content .fs__description {
   padding-top: 25px;
@@ -287,4 +318,4 @@ body {
   text-decoration: underline;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=index.css.map */

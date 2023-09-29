@@ -3,6 +3,35 @@
   background-color: $bkg_color_2;
 
   &__content {
+    .fs__img {
+      display: flex;
+
+      &__1, &__2 {
+        width: 540px;
+        height: 300px;
+      }
+
+      &__1 {
+        transform: translateX(-150%);
+        /*animation: block 2.5s forwards;*/
+
+        @keyframes block {
+          0% {transform: translateX(-150%);}
+          100% {transform: translateY(0);}
+        }
+      }
+
+      &__2 {
+        transform: translateX(150%);
+        /*animation: block2 2.5s forwards;*/
+
+        @keyframes block_2 {
+          0% {transform: translateX(150%);}
+          100% {transform: translateY(0);}
+        }
+      }
+    }
+
     .fs__description {
       padding-top: 25px;
       display: flex;
