@@ -34,12 +34,9 @@
 
       .f__title {
         font-size: 23px;
-        color: $mt_color;
       }
 
       .f__contact__item {
-        color: $mt_color;
-
         &:hover {
           color: $orange_color;
         }
@@ -54,7 +51,6 @@
       &__1 span {
         font-size: 15px;
         font-weight: bold;
-        color: $mt_color;
       }
 
       &__2 {
@@ -64,7 +60,6 @@
         & a {
           font-size: 15px;
           font-weight: bold;
-          color: $mt_color;
           text-decoration: underline;
 
           &:hover {

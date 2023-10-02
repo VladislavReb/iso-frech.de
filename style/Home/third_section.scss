@@ -39,14 +39,12 @@
         }
 
         &__title {
-          color: $mt_color;
           font-size: 20px;
           font-weight: bold;
         }
 
         &__text {
           text-align: center;
-          color: $mt_color;
           font-size: 17px;
         }
 
@@ -61,7 +59,6 @@
 
           &:hover {
             background-color: $bkg_color;
-            color: $mt_color;
           }
         }
 

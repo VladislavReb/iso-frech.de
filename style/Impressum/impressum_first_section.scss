@@ -4,15 +4,14 @@
 
     .main__img {
       width: 1080px;
-      height: 530px;
+      height: 300px;
     }
 
     .main__title {
       position: absolute;
-      top: 400px;
+      top: 250px;
       max-width: 700px;
       padding: 10px;
-      background-color: $orange_color;
       animation: magic 2s forwards;
 
       @keyframes magic {
@@ -24,5 +23,12 @@
     & h1 {
       font-size: 55px;
     }
+  }
+
+  &__content_2 {
+    padding: 65px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
 }

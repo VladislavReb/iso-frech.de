@@ -1,0 +1,21 @@
+.fourth_section {
+  padding: 70px 0;
+  background-color: $bkg_color_2;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .fs__title {
+      text-align: center;
+      color: $orange_color;
+      font-size: 24px;
+    }
+
+    .fs__img {
+      margin-top: 20px;
+      height: 470px;
+    }
+  }
+}

@@ -11,7 +11,6 @@
     }
 
     .ts__text {
-      color: $mt_color;
       font-size: 18px;
       text-align: center;
       padding: 35px;
@@ -50,10 +49,6 @@
         &__title {
           color: $orange_color;
           font-weight: bold;
-        }
-
-        &__text {
-          color: $mt_color;
         }
       }
     }

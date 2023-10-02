@@ -4,6 +4,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Black Ops", sans-serif;
+  color: #EFE7E2;
+  font-size: 17px;
 }
 
 a {
@@ -33,7 +35,6 @@ body {
   height: 80px;
 }
 .header .nav_bar__link {
-  color: #EFE7E2;
   font-size: 18px;
   font-weight: bold;
 }
@@ -54,8 +55,7 @@ body {
   max-width: 700px;
   padding: 10px;
   background-color: #faa633;
-  opacity: 0;
-  animation: magic 4s forwards;
+  animation: magic 3s forwards;
 }
 @keyframes magic {
   0% {
@@ -66,7 +66,6 @@ body {
   }
 }
 .first_section__content h1 {
-  color: #EFE7E2;
   font-size: 55px;
 }
 
@@ -85,7 +84,6 @@ body {
 }
 .second_section__content .sec_s__text {
   padding-top: 15px;
-  color: #EFE7E2;
   font-size: 17px;
 }
 
@@ -127,13 +125,11 @@ body {
   height: 79px;
 }
 .third_section__content .ts__services .ts__service__title {
-  color: #EFE7E2;
   font-size: 20px;
   font-weight: bold;
 }
 .third_section__content .ts__services .ts__service__text {
   text-align: center;
-  color: #EFE7E2;
   font-size: 17px;
 }
 .third_section__content .ts__services .ts__service__button {
@@ -147,7 +143,6 @@ body {
 }
 .third_section__content .ts__services .ts__service__button:hover {
   background-color: #333;
-  color: #EFE7E2;
 }
 .third_section__content .ts__services .ts__service .active {
   display: none;
@@ -210,7 +205,6 @@ body {
 }
 .fourth_section__content .fs__text {
   padding-top: 15px;
-  color: #EFE7E2;
   font-size: 17px;
 }
 
@@ -237,7 +231,6 @@ body {
 .fifth_section__content .fifs__description .fifs__text {
   text-align: center;
   padding-top: 15px;
-  color: #EFE7E2;
   font-size: 17px;
 }
 
@@ -272,10 +265,6 @@ body {
 }
 .footer .footer__content .f__contact .f__title {
   font-size: 23px;
-  color: #EFE7E2;
-}
-.footer .footer__content .f__contact .f__contact__item {
-  color: #EFE7E2;
 }
 .footer .footer__content .f__contact .f__contact__item:hover {
   color: #faa633;
@@ -288,7 +277,6 @@ body {
 .footer .footer__content .f__info__1 span {
   font-size: 15px;
   font-weight: bold;
-  color: #EFE7E2;
 }
 .footer .footer__content .f__info__2 {
   display: flex;
@@ -297,7 +285,6 @@ body {
 .footer .footer__content .f__info__2 a {
   font-size: 15px;
   font-weight: bold;
-  color: #EFE7E2;
   text-decoration: underline;
 }
 .footer .footer__content .f__info__2 a:hover {
