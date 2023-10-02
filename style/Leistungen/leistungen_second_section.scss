@@ -6,9 +6,15 @@
     flex-direction: column;
     gap: 45px;
 
+    .secs__title {
+      text-align: center;
+      color: $orange_color;
+      font-size: 24px;
+    }
+
     .service {
       &__description {
-        padding: 35px;
+        padding: 45px 35px 35px 35px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -41,8 +47,8 @@
       }
 
       &__photo {
+        display: none;
         background-color: $bkg_color_2;
-        display: flex;
         justify-content: space-between;
         padding: 20px;
 
@@ -50,26 +56,35 @@
           width: 510px;
           height: 330px;
         }
+      }
 
-        &__1 {
-          transform: translateX(-150%);
-          /*animation: block 2.5s forwards;*/
+      .active_photo {
+        display: flex;
+        opacity: 0;
+        animation: magic_photo 1.5s forwards;
 
-          @keyframes block {
-            0% {transform: translateX(-150%);}
-            100% {transform: translateY(0);}
-          }
+        @keyframes magic_photo {
+          0% {opacity: 0}
+          100% {opacity: 1}
         }
+      }
 
-        &__2 {
-          transform: translateX(150%);
-          /*animation: block_2 2.5s forwards;*/
+      &__wrap {
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-around;
+        background-color: $bkg_color_2;
+      }
 
-          @keyframes block_2 {
-            0% {transform: translateX(150%);}
-            100% {transform: translateY(0);}
-          }
-        }
+      &__arrow {
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+      }
+
+      .rotate__arrow {
+        transform: rotate(180deg);
+        transition-duration: 1s;
       }
     }
 
