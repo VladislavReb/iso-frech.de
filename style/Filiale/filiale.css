@@ -120,6 +120,7 @@ body {
 }
 .filiale_section__content .fil_info_boss img:hover {
   transform: scale(2);
+  transition-duration: 2s;
 }
 .filiale_section__content .fil_info_address {
   max-width: 450px;

@@ -69,6 +69,49 @@ body {
   font-size: 55px;
 }
 
+.second_section {
+  margin-top: -100px;
+  padding: 170px 0 70px 0;
+  background-color: #251D1A;
+}
+.second_section__content {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  align-items: center;
+}
+.second_section__content .worker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.second_section__content .worker > img {
+  width: 130px;
+  height: 130px;
+  border-radius: 170px;
+}
+.second_section__content .sec__title {
+  color: #faa633;
+  font-size: 24px;
+}
+.second_section__content .sec__boss {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  gap: 85px;
+}
+.second_section__content .sec__boss__item > img {
+  width: 200px !important;
+  height: 200px !important;
+}
+.second_section__content .sec__office, .second_section__content .sec__filiale {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 85px;
+}
+
 .footer {
   margin: 0 auto;
   position: relative;
@@ -141,4 +184,4 @@ body {
   text-decoration: underline;
 }
 
-/*# sourceMappingURL=kontakt.css.map */
+/*# sourceMappingURL=team.css.map */
