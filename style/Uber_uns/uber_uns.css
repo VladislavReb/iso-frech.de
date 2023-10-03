@@ -164,6 +164,9 @@ body {
   padding: 70px 0;
   background-color: #251D1A;
 }
+.fourth_section .container {
+  overflow: visible;
+}
 .fourth_section__content {
   display: flex;
   flex-direction: column;
@@ -177,6 +180,24 @@ body {
 .fourth_section__content .fs__img {
   margin-top: 20px;
   height: 470px;
+}
+.fourth_section__content .second_title {
+  margin-top: 55px;
+}
+.fourth_section__content .second_title + p {
+  text-align: center;
+}
+.fourth_section__content .fs__img_2 {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.fourth_section__content .fs__img_2 img {
+  width: 250px;
+}
+.fourth_section__content .fs__img_2 img:hover {
+  transform: scale(1.8);
+  transition-duration: 2s;
 }
 
 .footer {

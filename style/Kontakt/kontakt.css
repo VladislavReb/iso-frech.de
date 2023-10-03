@@ -69,82 +69,6 @@ body {
   font-size: 55px;
 }
 
-.second_section {
-  margin-top: -100px;
-  padding: 170px 0 70px 0;
-  background-color: #251D1A;
-}
-
-.container {
-  overflow: visible;
-}
-
-.filiale_section__content {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.filiale_section__content .fil_title {
-  color: #faa633;
-  font-size: 24px;
-}
-.filiale_section__content .fil_title_2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-.filiale_section__content .fil_text {
-  margin-bottom: 30px;
-}
-.filiale_section__content .fil_list {
-  padding: 0 0 35px 30px;
-  list-style-type: square;
-}
-.filiale_section__content .fil_info {
-  padding: 35px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-}
-.filiale_section__content .fil_info_boss {
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-}
-.filiale_section__content .fil_info_boss img {
-  width: 130px;
-  height: 130px;
-  border-radius: 170px;
-}
-.filiale_section__content .fil_info_boss img:hover {
-  transform: scale(2);
-}
-.filiale_section__content .fil_info_address {
-  max-width: 450px;
-}
-.filiale_section__content .fil_info_address h4 {
-  color: #faa633;
-  padding-bottom: 15px;
-}
-.filiale_section__content .fil_info iframe {
-  width: 400px;
-  height: 200px;
-}
-.filiale_section__content .fil_img {
-  display: flex;
-  padding: 45px 0;
-}
-.filiale_section__content .fil_img img {
-  width: 360px;
-  height: 300px;
-}
-
-.third_section {
-  padding: 70px 0;
-}
-
 .footer {
   margin: 0 auto;
   position: relative;
@@ -217,4 +141,4 @@ body {
   text-decoration: underline;
 }
 
-/*# sourceMappingURL=filiale.css.map */
+/*# sourceMappingURL=kontakt.css.map */

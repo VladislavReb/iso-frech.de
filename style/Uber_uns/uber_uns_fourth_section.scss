@@ -2,6 +2,10 @@
   padding: 70px 0;
   background-color: $bkg_color_2;
 
+  .container {
+    overflow: visible;
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
@@ -16,6 +20,29 @@
     .fs__img {
       margin-top: 20px;
       height: 470px;
+    }
+
+    .second_title {
+      margin-top: 55px;
+
+      &+p {
+        text-align: center;
+      }
+    }
+
+    .fs__img_2 {
+      padding: 25px 0;
+      display: flex;
+      justify-content: space-around;
+
+      & img {
+        width: 250px;
+
+        &:hover {
+          transform: scale(1.8);
+          transition-duration: 2s;
+        }
+      }
     }
   }
 }
