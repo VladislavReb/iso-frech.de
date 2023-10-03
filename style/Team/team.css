@@ -105,11 +105,55 @@ body {
   width: 200px !important;
   height: 200px !important;
 }
+.second_section__content .boss_1 {
+  /*animation: appear 1s forwards;*/
+  opacity: 0;
+}
+.second_section__content .boss_2 {
+  /*animation: appearFromRight 1s forwards;*/
+  opacity: 0;
+}
+.second_section__content .boss_3 {
+  /*animation: appearFromLeft 1s forwards;*/
+  opacity: 0;
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes appearFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes appearFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 .second_section__content .sec__office, .second_section__content .sec__filiale {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 85px;
+}
+.second_section__content .sec__office__item, .second_section__content .sec__filiale__item {
+  /*animation: appear 2s forwards;*/
+  opacity: 0;
 }
 
 .footer {
