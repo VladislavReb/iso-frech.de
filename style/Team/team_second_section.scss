@@ -3,6 +3,10 @@
   padding: 170px 0 70px 0;
   background-color: $bkg_color_2;
 
+  .container {
+    overflow: visible;
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
@@ -19,6 +23,11 @@
         width: 130px;
         height: 130px;
         border-radius: 170px;
+
+        &:hover {
+          transform: scale(1.7);
+          transition-duration: 1s;
+        }
       }
     }
 
@@ -28,7 +37,6 @@
     }
 
     .sec__boss {
-      overflow: hidden;
       display: flex;
       justify-content: space-around;
       gap: 85px;
