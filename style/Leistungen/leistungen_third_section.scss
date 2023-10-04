@@ -17,12 +17,12 @@
     }
 
     .image_slider {
-      margin: 45px auto;
+      margin: 0 auto;
       padding: 10px 10px;
       min-height: 400px;
-      max-width: 980px;
+      max-width: 1000px;
       display: flex;
-      gap: 50px;
+      gap: 70px;
       overflow-x: scroll;
       scroll-behavior: smooth;
 
@@ -31,19 +31,26 @@
       }
 
       .slide {
-        margin-bottom: 10px;
+        filter: blur(2px);
+        margin: 0 35px 10px 35px;
         padding: 25px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 10px;
         background-color: $bkg_color_2;
-        min-width: 400px;
-        min-height: 430px;
+        width: 270px;
+        height: 400px;
         box-shadow: 10px 10px 10px black;
 
-        &__icon img {
-          width: 25px;
-          height: 25px;
+        &__icon {
+          display: flex;
+          gap: 5px;
+
+          & img {
+            width: 25px;
+            height: 25px;
+          }
         }
 
         &__title {
@@ -69,6 +76,23 @@
     .array_2 {
       transform: rotate(90deg);
       left: 0;
+    }
+
+    .slick-center {
+      filter: contrast(100%) !important;
+      transform: scale(1.3);
+    }
+
+    .slick-track {
+      padding: 75px 0;
+    }
+
+    .slick-slide {
+      margin: 0 40px ;
+
+      & p {
+        font-size: 14px;
+      }
     }
   }
 }

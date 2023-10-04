@@ -93,3 +93,20 @@ Style for this functions:
             100% {transform: translateY(0);}
           }
         }
+
+
+// Referenzen carousel.
+/*
+const boxServices = document.querySelector('.image_slider');
+
+const nextButton = document.querySelector('.array');
+nextButton.addEventListener("click", () => {
+    return boxServices.scrollBy(425, 0);
+});
+
+const prevButton = document.querySelector('.array_2');
+prevButton.addEventListener("click", () => {
+    return boxServices.scrollBy(-425, 0);
+});
+
+*/

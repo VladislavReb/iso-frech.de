@@ -194,6 +194,7 @@ body {
 }
 .fourth_section__content .fs__img_2 img {
   width: 250px;
+  z-index: 1;
 }
 .fourth_section__content .fs__img_2 img:hover {
   transform: scale(1.8);

@@ -7,16 +7,19 @@ document.querySelectorAll('.service__arrow').forEach(elem => {
     })
 })
 
-
-// Referenzen carousel.
-const boxServices = document.querySelector('.image_slider');
-
-const nextButton = document.querySelector('.array');
-nextButton.addEventListener("click", () => {
-    return boxServices.scrollBy(425, 0);
+$(document).ready(function(){
+    $('.autoplay').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        centerMode: true,
+        centerPadding: 0,
+        nextArrow: '.array',
+        prevArrow: '.array_2',
+        variableWidth: true,
+    });
 });
 
-const prevButton = document.querySelector('.array_2');
-prevButton.addEventListener("click", () => {
-    return boxServices.scrollBy(-425, 0);
-});
+
+

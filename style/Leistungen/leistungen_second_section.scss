@@ -13,6 +13,9 @@
     }
 
     .service {
+      box-shadow: 10px 10px 10px black;
+      margin: 15px;
+
       &__description {
         padding: 45px 35px 35px 35px;
         display: flex;
