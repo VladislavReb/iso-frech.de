@@ -127,7 +127,7 @@ body {
 .footer {
   margin: 0 auto;
   position: relative;
-  max-width: 1550px;
+  max-width: 100%;
   overflow: hidden;
 }
 .footer .footer_img {
@@ -197,11 +197,17 @@ body {
 }
 
 @media screen and (min-width: 1920px) {
-  .footer {
-    max-width: 100%;
-  }
   .footer .footer__content .f__contact {
     top: 55px;
+  }
+}
+@media screen and (min-width: 1365px) and (max-width: 1450px) {
+  .footer .footer__content .f__contact {
+    top: 10px;
+    gap: 10px;
+    max-width: 430px;
+    padding: 35px 30px;
+    background-color: #251D1A;
   }
 }
 

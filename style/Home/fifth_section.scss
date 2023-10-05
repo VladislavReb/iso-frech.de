@@ -35,3 +35,13 @@
     }
   }
 }
+
+@media screen and (min-width: 1365px) and (max-width: 1450px) {
+  .fifth_section {
+    &__content {
+      .fifs__description {
+        max-width: 370px;
+      }
+    }
+  }
+}

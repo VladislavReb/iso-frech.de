@@ -238,7 +238,7 @@ body {
 
 @media screen and (min-width: 1920px) {
   .fourth_section__content .fs__img__1, .fourth_section__content .fs__img__2 {
-    width: 100%;
+    width: 690px;
     height: 400px;
   }
   .fourth_section__content .fs__description {
@@ -249,6 +249,18 @@ body {
   }
   .fourth_section__content .fs__description__2 {
     max-width: 450px;
+  }
+}
+@media screen and (min-width: 1365px) and (max-width: 1450px) {
+  .fourth_section__content .fs__img__1, .fourth_section__content .fs__img__2 {
+    width: 540px;
+    height: 300px;
+  }
+  .fourth_section__content .fs__description {
+    justify-content: space-around;
+  }
+  .fourth_section__content .fs__description__1 {
+    width: 480px;
   }
 }
 .fifth_section {
@@ -282,10 +294,15 @@ body {
     justify-content: space-around;
   }
 }
+@media screen and (min-width: 1365px) and (max-width: 1450px) {
+  .fifth_section__content .fifs__description {
+    max-width: 370px;
+  }
+}
 .footer {
   margin: 0 auto;
   position: relative;
-  max-width: 1550px;
+  max-width: 100%;
   overflow: hidden;
 }
 .footer .footer_img {
@@ -355,11 +372,17 @@ body {
 }
 
 @media screen and (min-width: 1920px) {
-  .footer {
-    max-width: 100%;
-  }
   .footer .footer__content .f__contact {
     top: 55px;
+  }
+}
+@media screen and (min-width: 1365px) and (max-width: 1450px) {
+  .footer .footer__content .f__contact {
+    top: 10px;
+    gap: 10px;
+    max-width: 430px;
+    padding: 35px 30px;
+    background-color: #251D1A;
   }
 }
 
