@@ -27,3 +27,11 @@
     }
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .fifth_section {
+    &__content {
+      justify-content: space-around;
+    }
+  }
+}

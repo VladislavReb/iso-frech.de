@@ -2,11 +2,12 @@
 document.querySelectorAll('.service__arrow').forEach(elem => {
     elem.addEventListener('click', ({target}) => {
         target.parentElement.nextElementSibling.classList.toggle('active_photo');
-        target.classList.toggle('rotate__arrow');
+        target.parentElement.classList.toggle('rotate__arrow');
         target.stopImmediatePropagation();
     })
 })
 
+// Slider library logic.
 $(document).ready(function(){
     $('.autoplay').slick({
         slidesToShow: 3,
@@ -18,6 +19,7 @@ $(document).ready(function(){
         nextArrow: '.array',
         prevArrow: '.array_2',
         variableWidth: true,
+        speed: 500,
     });
 });
 

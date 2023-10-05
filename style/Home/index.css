@@ -1,3 +1,4 @@
+@import "./normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Open+Sans:wght@300;400&family=Paytone+One&display=swap");
 * {
   padding: 0;
@@ -5,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Black Ops", sans-serif;
   color: #EFE7E2;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 a {
@@ -22,6 +23,11 @@ body {
   background-color: #333;
 }
 
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1380px;
+  }
+}
 .header {
   padding: 10px 10px 10px 0;
 }
@@ -46,7 +52,7 @@ body {
   overflow: hidden;
 }
 .first_section__content .main__img {
-  width: 1080px;
+  width: 100%;
   height: 700px;
 }
 .first_section__content .main__title {
@@ -69,6 +75,18 @@ body {
   font-size: 55px;
 }
 
+@media screen and (min-width: 1920px) {
+  .first_section__content .main__img {
+    height: 100%;
+  }
+  .first_section__content .main__title {
+    top: 500px;
+    max-width: 800px;
+  }
+  .first_section__content h1 {
+    font-size: 60px;
+  }
+}
 .second_section {
   margin-top: -125px;
   padding-top: 175px;
@@ -148,6 +166,16 @@ body {
   display: none;
 }
 
+@media screen and (min-width: 1920px) {
+  .third_section__content .ts__services {
+    padding: 45px 15px 10px;
+  }
+  .third_section__content .ts__services .ts__service {
+    min-height: 400px;
+    width: 300px;
+    box-shadow: 10px 10px 10px black;
+  }
+}
 .fourth_section {
   padding: 85px 0;
   background-color: #251D1A;
@@ -208,6 +236,21 @@ body {
   font-size: 17px;
 }
 
+@media screen and (min-width: 1920px) {
+  .fourth_section__content .fs__img__1, .fourth_section__content .fs__img__2 {
+    width: 100%;
+    height: 400px;
+  }
+  .fourth_section__content .fs__description {
+    justify-content: space-around;
+  }
+  .fourth_section__content .fs__description__1 {
+    width: 620px;
+  }
+  .fourth_section__content .fs__description__2 {
+    max-width: 450px;
+  }
+}
 .fifth_section {
   padding: 85px 0;
 }
@@ -234,6 +277,11 @@ body {
   font-size: 17px;
 }
 
+@media screen and (min-width: 1920px) {
+  .fifth_section__content {
+    justify-content: space-around;
+  }
+}
 .footer {
   margin: 0 auto;
   position: relative;
@@ -304,6 +352,15 @@ body {
 }
 .footer .f__visit_card a {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 1920px) {
+  .footer {
+    max-width: 100%;
+  }
+  .footer .footer__content .f__contact {
+    top: 55px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

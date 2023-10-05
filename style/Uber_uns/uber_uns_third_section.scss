@@ -69,3 +69,21 @@
     }
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .third_section {
+    &__content {
+      .ts__img {
+        &__text {
+          left: 285px;
+
+          &_item {
+            & p {
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

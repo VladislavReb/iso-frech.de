@@ -1,3 +1,4 @@
+@import "./normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Open+Sans:wght@300;400&family=Paytone+One&display=swap");
 * {
   padding: 0;
@@ -5,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Black Ops", sans-serif;
   color: #EFE7E2;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 a {
@@ -22,6 +23,11 @@ body {
   background-color: #333;
 }
 
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1380px;
+  }
+}
 .header {
   padding: 10px 10px 10px 0;
 }
@@ -69,6 +75,19 @@ body {
   font-size: 55px;
 }
 
+@media screen and (min-width: 1920px) {
+  .first_section__content .main__img {
+    width: 100%;
+    height: 700px;
+  }
+  .first_section__content .main__title {
+    top: 500px;
+    max-width: 800px;
+  }
+  .first_section__content h1 {
+    font-size: 60px;
+  }
+}
 .second_section {
   margin-top: -100px;
   padding: 170px 0 70px 0;
@@ -80,14 +99,18 @@ body {
 .second_section__content {
   display: flex;
   flex-direction: column;
-  gap: 65px;
+  gap: 45px;
   align-items: center;
 }
 .second_section__content .worker {
+  width: 185px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+.second_section__content .worker > p {
+  text-align: center;
 }
 .second_section__content .worker > img {
   width: 130px;
@@ -155,7 +178,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 85px;
+  gap: 35px;
 }
 .second_section__content .sec__office__item, .second_section__content .sec__filiale__item {
   /*animation: appear 2s forwards;*/
@@ -232,6 +255,15 @@ body {
 }
 .footer .f__visit_card a {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 1920px) {
+  .footer {
+    max-width: 100%;
+  }
+  .footer .footer__content .f__contact {
+    top: 55px;
+  }
 }
 
 /*# sourceMappingURL=team.css.map */

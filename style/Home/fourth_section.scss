@@ -63,3 +63,28 @@
     }
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .fourth_section {
+    &__content {
+      .fs__img {
+        &__1, &__2 {
+          width: 100%;
+          height: 400px;
+        }
+      }
+
+      .fs__description {
+        justify-content: space-around;
+
+        &__1 {
+          width: 620px;
+        }
+
+        &__2 {
+          max-width: 450px;
+        }
+      }
+    }
+  }
+}

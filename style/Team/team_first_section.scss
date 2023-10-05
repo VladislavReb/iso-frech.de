@@ -26,3 +26,23 @@
     }
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .first_section {
+    &__content {
+      .main__img {
+        width: 100%;
+        height: 700px;
+      }
+
+      .main__title {
+        top: 500px;
+        max-width: 800px;
+      }
+
+      & h1 {
+        font-size: 60px;
+      }
+    }
+  }
+}

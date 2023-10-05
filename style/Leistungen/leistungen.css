@@ -1,3 +1,4 @@
+@import "./normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Open+Sans:wght@300;400&family=Paytone+One&display=swap");
 * {
   padding: 0;
@@ -5,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Black Ops", sans-serif;
   color: #EFE7E2;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 a {
@@ -22,6 +23,11 @@ body {
   background-color: #333;
 }
 
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1380px;
+  }
+}
 .header {
   padding: 10px 10px 10px 0;
 }
@@ -46,7 +52,7 @@ body {
   overflow: hidden;
 }
 .first_section__content .main__img {
-  width: 1080px;
+  width: 100%;
   height: 530px;
 }
 .first_section__content .main__title {
@@ -69,13 +75,25 @@ body {
   font-size: 55px;
 }
 
+@media screen and (min-width: 1920px) {
+  .first_section__content .main__img {
+    height: 700px;
+  }
+  .first_section__content .main__title {
+    top: 500px;
+    max-width: 800px;
+  }
+  .first_section__content h1 {
+    font-size: 60px;
+  }
+}
 .second_section {
   padding: 70px;
 }
 .second_section__content {
   display: flex;
   flex-direction: column;
-  gap: 45px;
+  gap: 35px;
 }
 .second_section__content .secs__title {
   text-align: center;
@@ -83,6 +101,7 @@ body {
   font-size: 24px;
 }
 .second_section__content .service {
+  background-color: #251D1A;
   box-shadow: 10px 10px 10px black;
   margin: 15px;
 }
@@ -116,12 +135,12 @@ body {
 .second_section__content .service__photo {
   display: none;
   background-color: #251D1A;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
 }
 .second_section__content .service__photo__1, .second_section__content .service__photo__2 {
-  width: 510px;
-  height: 330px;
+  width: 420px;
+  height: 240px;
 }
 .second_section__content .service .active_photo {
   display: flex;
@@ -137,19 +156,31 @@ body {
   }
 }
 .second_section__content .service__wrap {
-  padding-bottom: 15px;
+  padding: 15px 0;
+  margin-top: -30px;
   display: flex;
   justify-content: space-around;
   background-color: #251D1A;
 }
 .second_section__content .service__arrow {
   cursor: pointer;
-  width: 25px;
-  height: 25px;
+  width: 55px;
+  height: 15px;
+  animation: 1.2s infinite bounceArrow;
+}
+@keyframes bounceArrow {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-12px);
+  }
+  60% {
+    transform: translateY(-7px);
+  }
 }
 .second_section__content .service .rotate__arrow {
-  transform: rotate(180deg);
-  transition-duration: 1s;
+  transform: scale(1, -1);
 }
 .second_section__content .separ {
   margin: 10px auto;
@@ -158,6 +189,14 @@ body {
   border-radius: 5px;
 }
 
+@media screen and (min-width: 1920px) {
+  .second_section__content .service__description__text {
+    max-width: 1000px;
+  }
+  .second_section__content .separ {
+    width: 800px;
+  }
+}
 .third_section {
   padding: 45px;
 }
@@ -241,6 +280,11 @@ body {
   font-size: 14px;
 }
 
+@media screen and (min-width: 1920px) {
+  .third_section__content .image_slider {
+    max-width: 1250px;
+  }
+}
 .footer {
   margin: 0 auto;
   position: relative;
@@ -311,6 +355,15 @@ body {
 }
 .footer .f__visit_card a {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 1920px) {
+  .footer {
+    max-width: 100%;
+  }
+  .footer .footer__content .f__contact {
+    top: 55px;
+  }
 }
 
 /*# sourceMappingURL=leistungen.css.map */

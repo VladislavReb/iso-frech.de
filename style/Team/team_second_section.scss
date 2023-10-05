@@ -10,14 +10,19 @@
   &__content {
     display: flex;
     flex-direction: column;
-    gap: 65px;
+    gap: 45px;
     align-items: center;
 
     .worker {
+      width: 185px;
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 10px;
+
+      & > p {
+        text-align: center;
+      }
 
       & > img {
         width: 130px;
@@ -97,7 +102,7 @@
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      gap: 85px;
+      gap: 35px;
 
       &__item {
         /*animation: appear 2s forwards;*/

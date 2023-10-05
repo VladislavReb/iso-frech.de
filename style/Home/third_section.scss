@@ -69,3 +69,19 @@
     }
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .third_section {
+    &__content {
+      .ts__services {
+        padding: 45px 15px 10px;
+
+        .ts__service {
+          min-height: 400px;
+          width: 300px;
+          box-shadow: 10px 10px 10px black;
+        }
+      }
+    }
+  }
+}

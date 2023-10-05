@@ -1,3 +1,4 @@
+@import "./normalize.css";
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Open+Sans:wght@300;400&family=Paytone+One&display=swap');
 
 $bkg_color: #333;
@@ -11,7 +12,7 @@ $orange_color: #faa633;
   box-sizing: border-box;
   font-family: 'Black Ops', sans-serif;
   color: $mt_color;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 a {
@@ -26,4 +27,10 @@ a {
 
 body {
   background-color: $bkg_color;
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1380px;
+  }
 }
