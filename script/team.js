@@ -43,7 +43,7 @@ const optionsRender = {
 
 const optionsRender2 = {
     root: null,
-    threshold: 0.5,
+    threshold: 0.2,
 };
 
 const observerSecond = new IntersectionObserver(comePhotoBoss, optionsRender);
