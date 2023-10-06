@@ -22,8 +22,12 @@
       .fifs__text {
         text-align: center;
         padding-top: 15px;
-        font-size: 17px;
       }
+    }
+
+    .fifs__videobox > iframe {
+      width: 560px;
+      height: 315px;
     }
   }
 }
@@ -41,6 +45,33 @@
     &__content {
       .fifs__description {
         max-width: 370px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .fifth_section {
+    &__content {
+
+      .fifs__description {
+        max-width: 310px;
+        gap: 20px;
+
+        .fifs__separ {
+          width: 270px;
+          background-color: $orange_color;
+          border: 1px solid $orange_color;
+        }
+
+        .fifs__text {
+          padding-top: 5px;
+        }
+      }
+
+      .fifs__videobox > iframe {
+        width: 400px;
+        height: 215px;
       }
     }
   }

@@ -11,7 +11,6 @@
     }
 
     .ts__text {
-      font-size: 18px;
       text-align: center;
       padding: 35px;
     }
@@ -102,6 +101,56 @@
     &__content {
       .image_slider {
         max-width: 1250px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .third_section {
+    padding: 15px;
+
+    &__content {
+      .ts__title {
+        font-size: 20px;
+      }
+
+      .image_slider {
+        min-height: 350px;
+        max-width: 670px;
+
+        .slide {
+          margin: 0 35px 10px 35px;
+          padding: 15px;
+          gap: 10px;
+          width: 240px;
+
+          &__icon {
+            & img {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+
+      .array, .array_2 {
+        width: 30px;
+        height: 30px;
+        top: 370px;
+      }
+
+      .slick-slider {
+        max-width: 670px;
+      }
+
+      .slick-slide {
+        max-height: 330px;
+        margin: 0 40px ;
+
+        & p {
+          font-size: 12px;
+        }
       }
     }
   }

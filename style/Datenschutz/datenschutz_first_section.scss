@@ -62,3 +62,30 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .first_section {
+    &__content {
+      .main__img {
+        height: 200px;
+      }
+
+      .main__title {
+        top: 150px;
+      }
+
+      & h1 {
+        font-size: 35px;
+      }
+    }
+
+    &__content_2 {
+      padding: 45px 0;
+      max-width: 650px;
+
+      & h2 {
+        font-size: 18px;
+      }
+    }
+  }
+}

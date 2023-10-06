@@ -87,3 +87,53 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .third_section {
+    &__content {
+      padding: 30px 0 0;
+
+      .ts__main_info {
+        gap: 10px;
+
+        &__title {
+          font-size: 20px;
+        }
+      }
+
+      .ts__img {
+        padding: 35px 0;
+
+        &__photo {
+          width: 700px;
+        }
+
+        &__text {
+          max-width: 600px;
+          left: 75px;
+          gap: 20px;
+
+          &_item {
+            max-width: 240px;
+
+            & h4 {
+              font-size: 13px;
+            }
+
+            & p {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      .ts__add_info {
+        padding-top: 45px;
+
+        &__title {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

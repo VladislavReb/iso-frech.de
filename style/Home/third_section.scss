@@ -74,12 +74,65 @@
   .third_section {
     &__content {
       .ts__services {
-        padding: 45px 15px 10px;
+        padding: 45px 15px 15px;
 
         .ts__service {
           min-height: 400px;
-          width: 300px;
+          width: 280px;
           box-shadow: 10px 10px 10px black;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1364px) {
+  .third_section {
+    &__content {
+      .ts__services {
+        padding: 45px 15px 15px;
+
+        .ts__service {
+          min-height: 310px;
+          width: 220px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .third_section {
+    &__content {
+      .ts__title {
+        font-size: 20px;
+      }
+
+      .ts__services {
+        padding: 45px 5px 10px;
+
+        .ts__service {
+          padding: 10px 5px;
+          min-height: 270px;
+          width: 170px;
+          gap: 10px;
+
+          &__img {
+            width: 45px;
+            height: 45px;
+          }
+
+          &__title {
+            font-size: 15px;
+          }
+
+          &__text {
+            font-size: 14px;
+          }
+
+          &__button {
+            font-size: 12px;
+          }
         }
       }
     }

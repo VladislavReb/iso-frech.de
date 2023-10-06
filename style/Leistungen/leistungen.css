@@ -28,6 +28,20 @@ body {
     max-width: 1380px;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1364px) {
+  .container {
+    max-width: 1020px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  * {
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 750px;
+  }
+}
 .header {
   padding: 10px 10px 10px 0;
 }
@@ -85,6 +99,17 @@ body {
   }
   .first_section__content h1 {
     font-size: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .first_section__content .main__img {
+    height: 380px;
+  }
+  .first_section__content .main__title {
+    top: 300px;
+  }
+  .first_section__content h1 {
+    font-size: 35px;
   }
 }
 .second_section {
@@ -197,6 +222,54 @@ body {
     width: 800px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .second_section {
+    padding: 45px 35px;
+  }
+  .second_section__content {
+    gap: 25px;
+  }
+  .second_section__content .secs__title {
+    font-size: 20px;
+  }
+  .second_section__content .service {
+    box-shadow: 5px 5px 5px black;
+  }
+  .second_section__content .service__description {
+    padding: 20px 20px 20px 0;
+  }
+  .second_section__content .service__description__lable {
+    gap: 15px;
+  }
+  .second_section__content .service__description__logo {
+    width: 59px;
+    height: 59px;
+  }
+  .second_section__content .service__description__title {
+    font-size: 17px;
+  }
+  .second_section__content .service__description__text {
+    font-size: 15px;
+  }
+  .second_section__content .service__photo__1, .second_section__content .service__photo__2 {
+    width: 280px;
+    height: 170px;
+  }
+  @keyframes bounceArrow {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-3px);
+    }
+    60% {
+      transform: translateY(3px);
+    }
+  }
+  .second_section__content .separ {
+    width: 500px;
+  }
+}
 .third_section {
   padding: 45px;
 }
@@ -209,7 +282,6 @@ body {
   font-size: 24px;
 }
 .third_section__content .ts__text {
-  font-size: 18px;
   text-align: center;
   padding: 35px;
 }
@@ -283,6 +355,43 @@ body {
 @media screen and (min-width: 1920px) {
   .third_section__content .image_slider {
     max-width: 1250px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .third_section {
+    padding: 15px;
+  }
+  .third_section__content .ts__title {
+    font-size: 20px;
+  }
+  .third_section__content .image_slider {
+    min-height: 350px;
+    max-width: 670px;
+  }
+  .third_section__content .image_slider .slide {
+    margin: 0 35px 10px 35px;
+    padding: 15px;
+    gap: 10px;
+    width: 240px;
+  }
+  .third_section__content .image_slider .slide__icon img {
+    width: 20px;
+    height: 20px;
+  }
+  .third_section__content .array, .third_section__content .array_2 {
+    width: 30px;
+    height: 30px;
+    top: 370px;
+  }
+  .third_section__content .slick-slider {
+    max-width: 670px;
+  }
+  .third_section__content .slick-slide {
+    max-height: 330px;
+    margin: 0 40px;
+  }
+  .third_section__content .slick-slide p {
+    font-size: 12px;
   }
 }
 .footer {
@@ -369,6 +478,46 @@ body {
     max-width: 430px;
     padding: 35px 30px;
     background-color: #251D1A;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1364px) {
+  .footer .footer__content .f__contact {
+    top: 25px;
+    gap: 7px;
+    padding: 10px 20px;
+  }
+  .footer .footer__content .f__contact img {
+    width: 33px;
+    height: 33px;
+  }
+  .footer .footer__content .f__contact .f__title {
+    font-size: 20px;
+  }
+  .footer .footer__content .f__contact .f__contact__item {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    max-width: 130%;
+  }
+  .footer .footer_img {
+    width: 130%;
+  }
+  .footer .footer__content .f__contact {
+    top: 15px;
+    gap: 7px;
+    padding: 10px 20px;
+  }
+  .footer .footer__content .f__contact img {
+    width: 33px;
+    height: 33px;
+  }
+  .footer .footer__content .f__contact .f__title {
+    font-size: 20px;
+  }
+  .footer .footer__content .f__contact .f__contact__item {
+    font-size: 16px;
   }
 }
 

@@ -132,3 +132,67 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .second_section {
+    padding: 45px 35px;
+
+    &__content {
+      gap: 25px;
+
+      .secs__title {
+        font-size: 20px;
+      }
+
+      .service {
+        box-shadow: 5px 5px 5px black;
+
+        &__description {
+          padding: 20px 20px 20px 0;
+
+          &__lable {
+            gap: 15px;
+          }
+
+          &__logo {
+            width: 59px;
+            height: 59px;
+          }
+
+          &__title {
+            font-size: 17px;
+          }
+
+          &__text {
+            font-size: 15px;
+          }
+        }
+
+        &__photo {
+          &__1, &__2 {
+            width: 280px;
+            height: 170px;
+          }
+        }
+
+        @keyframes bounceArrow {
+          0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+          }
+
+          40% {
+            transform: translateY(-3px);
+          }
+
+          60% {
+            transform: translateY(3px);
+          }
+        }
+      }
+
+      .separ {
+        width: 500px;
+      }
+    }
+  }
+}

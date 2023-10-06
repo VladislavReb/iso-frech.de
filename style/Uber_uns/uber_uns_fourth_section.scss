@@ -47,3 +47,28 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .fourth_section {
+    padding: 35px 0;
+
+    &__content {
+      gap: 10px;
+
+      .fs__title {
+        font-size: 20px;
+      }
+
+      .fs__img {
+        margin-top: 20px;
+        height: 380px;
+      }
+
+      .fs__img_2 {
+        & img {
+          width: 170px;
+        }
+      }
+    }
+  }
+}
