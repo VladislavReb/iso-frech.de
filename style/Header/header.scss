@@ -20,4 +20,90 @@
       color: $orange_color;
     }
   }
+
+  .mob_header {
+    display: none;
+  }
+
+  .mob_header__content {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .header {
+    padding: 10px;
+
+    .nav_bar {
+      display: none;
+    }
+
+    .mob_header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__logo {
+        & > img {
+          width: 155px;
+          height: 65px;
+        }
+      }
+
+      &__dash {
+        margin: 3px 10px 0 0;
+        width: 34px;
+        height: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        & div {
+          width: 32px;
+          height: 3px;
+          background-color: $mt_color;
+          flex-shrink: 0;
+        }
+      }
+    }
+
+    .mob_header__content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      min-width: 320px;
+      min-height: 480px;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      gap: 45px;
+      padding: 30px 15px 65px;
+      background-color: $bkg_color;
+      transform: translateX(-150%);
+      /*animation: block 2s forwards;*/ //JS code do it.
+
+      @keyframes block {
+        0% {transform: translateX(-150%);}
+        100% {transform: translateY(0);}
+      }
+
+      @keyframes blockBack {
+        0% {transform: translateY(0);}
+        100% {transform: translateX(-150%);}
+      }
+
+      & > a {
+        font-size: 19px;
+        font-weight: bold;
+        color: $mt_color;
+      }
+
+      & > img {
+        align-self: end;
+      }
+    }
+  }
 }

@@ -83,3 +83,22 @@
     }
   }
 }
+
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .first_section {
+    &__content {
+      .main__img {
+        width: 210%;
+        height: 580px;
+      }
+
+      .main__title {
+        top: 350px;
+      }
+
+      & h1 {
+        font-size: 30px;
+      }
+    }
+  }
+}

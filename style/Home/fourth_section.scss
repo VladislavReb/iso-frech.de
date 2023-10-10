@@ -59,7 +59,6 @@
 
     .fs__text {
       padding-top: 15px;
-      font-size: 17px;
     }
   }
 }
@@ -155,6 +154,33 @@
 
       .fs__text {
         font-size: 16px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .fourth_section {
+    padding: 35px 0;
+
+    &__content {
+      .fs__img {
+        display: flex;
+        flex-direction: column;
+
+        &__1, &__2 {
+          width: 400px;
+          height: 190px;
+        }
+      }
+
+      .fs__description {
+        padding-top: 15px;
+        flex-direction: column;
+      }
+
+      .fs__title {
+        font-size: 20px;
       }
     }
   }

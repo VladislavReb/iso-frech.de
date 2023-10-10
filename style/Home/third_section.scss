@@ -138,3 +138,41 @@
     }
   }
 }
+
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .third_section {
+    padding: 25px 0;
+
+    &__content {
+      .ts__title {
+        font-size: 20px;
+      }
+
+      .ts__services {
+        padding: 25px 5px 10px;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        gap: 55px;
+
+        &::-webkit-scrollbar {
+          width: 0;
+        }
+
+        .ts__service {
+          min-height: 370px;
+          min-width: 280px;
+
+
+          &__img {
+            width: 63px;
+            height: 63px;
+          }
+
+          &__title {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

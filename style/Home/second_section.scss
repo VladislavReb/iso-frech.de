@@ -27,3 +27,21 @@
     }
   }
 }
+
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .second_section {
+    padding-top: 165px;
+
+    &__content {
+      padding: 0 20px 35px;
+
+      .sec_s__title {
+        font-size: 20px;
+      }
+
+      .sec_s__text {
+        padding-top: 15px;
+      }
+    }
+  }
+}
