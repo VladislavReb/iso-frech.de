@@ -203,7 +203,8 @@
 
         .f__contact__item {
           color: $bkg_color_2;
-          font-weight: bold;
+          font-weight: 800;
+          font-size: 15px;
         }
       }
 
@@ -222,24 +223,5 @@
         }
       }
     }
-
-    .f__visit_card {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-      text-align: center;
-      padding: 15px 0;
-      background-color: $bkg_color_2;
-
-      & a, & p {
-        font-size: 14px;
-        color: black;
-      }
-
-      & a {
-        text-decoration: underline;
-      }
-    }
   }
-
 }

@@ -516,7 +516,8 @@ body {
   }
   .footer .footer__content .f__contact .f__contact__item {
     color: #251D1A;
-    font-weight: bold;
+    font-weight: 800;
+    font-size: 15px;
   }
   .footer .footer__content .f__info {
     padding: 30px 0;
@@ -527,21 +528,6 @@ body {
   }
   .footer .footer__content .f__info__2 a {
     font-size: 14px;
-  }
-  .footer .f__visit_card {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    text-align: center;
-    padding: 15px 0;
-    background-color: #251D1A;
-  }
-  .footer .f__visit_card a, .footer .f__visit_card p {
-    font-size: 14px;
-    color: black;
-  }
-  .footer .f__visit_card a {
-    text-decoration: underline;
   }
 }
 
