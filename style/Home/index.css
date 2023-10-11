@@ -505,6 +505,18 @@ body {
   .third_section__content .ts__services .ts__service__img {
     width: 63px;
     height: 63px;
+    animation: 1.2s infinite bounceArrow;
+  }
+  @keyframes bounceArrow {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-12px);
+    }
+    60% {
+      transform: translateY(-7px);
+    }
   }
   .third_section__content .ts__services .ts__service__title {
     font-size: 18px;
@@ -533,6 +545,18 @@ body {
   .third_section__content .ts__services .ts__service__img {
     width: 63px;
     height: 63px;
+    animation: 1.2s infinite bounceArrow;
+  }
+  @keyframes bounceArrow {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-12px);
+    }
+    60% {
+      transform: translateY(-7px);
+    }
   }
   .third_section__content .ts__services .ts__service__title {
     font-size: 18px;
