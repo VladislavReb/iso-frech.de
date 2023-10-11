@@ -71,3 +71,25 @@
     }
   }
 }
+
+@media screen and (min-width: 412px) and (max-width: 768px) {
+  .second_section {
+    padding: 35px 0;
+
+    &__content {
+      gap: 25px;
+
+      .content_1 {
+        &__title_3 {
+          margin-top: 15px;
+        }
+      }
+
+      .content_2 {
+        & > img {
+          width: 250px;
+        }
+      }
+    }
+  }
+}

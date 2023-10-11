@@ -146,6 +146,9 @@ body {
     font-weight: bold;
     color: #EFE7E2;
   }
+  .header .mob_header__content > a:hover {
+    color: #faa633;
+  }
   .header .mob_header__content > img {
     align-self: end;
   }
@@ -198,6 +201,19 @@ body {
   }
   .first_section__content h1 {
     font-size: 35px;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .first_section__content .main__img {
+    height: 530px;
+    width: 290%;
+    margin-left: -590px;
+  }
+  .first_section__content .main__title {
+    top: 300px;
+  }
+  .first_section__content h1 {
+    font-size: 30px;
   }
 }
 .second_section {
@@ -325,6 +341,49 @@ body {
   .filiale_section__content .fil_img img {
     width: 250px;
     height: 200px;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .second_section {
+    padding: 135px 0 45px 0;
+  }
+
+  .filiale_section__content .fil_title {
+    font-size: 20px;
+  }
+  .filiale_section__content .fil_title_2 {
+    font-size: 18px;
+  }
+  .filiale_section__content .fil_text {
+    margin-bottom: 20px;
+  }
+  .filiale_section__content .fil_info {
+    padding: 15px 0;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+  }
+  .filiale_section__content .fil_info_boss {
+    align-self: center;
+    max-width: 400px;
+  }
+  .filiale_section__content .fil_info_address {
+    max-width: 450px;
+  }
+  .filiale_section__content .fil_info_address h4 {
+    padding-bottom: 10px;
+  }
+  .filiale_section__content .fil_img {
+    display: flex;
+    padding: 15px 0 0;
+  }
+  .filiale_section__content .fil_img img {
+    width: 180px;
+    height: 120px;
+  }
+
+  .third_section {
+    padding: 35px 0;
   }
 }
 .footer {
@@ -455,14 +514,16 @@ body {
 }
 @media screen and (min-width: 412px) and (max-width: 767px) {
   .footer .footer_img {
-    display: none;
+    width: 300%;
+    margin-left: -400px;
   }
   .footer .footer__content .f__contact {
-    position: static;
+    top: 55px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 5px;
     padding: 15px 10px;
+    background-color: transparent;
   }
   .footer .footer__content .f__contact div {
     display: flex;
@@ -470,12 +531,16 @@ body {
     gap: 15px;
   }
   .footer .footer__content .f__contact img {
-    width: 35px;
-    height: 35px;
+    width: 28px;
+    height: 28px;
   }
   .footer .footer__content .f__contact .f__title {
     font-size: 20px;
-    text-align: center;
+    color: #251D1A;
+  }
+  .footer .footer__content .f__contact .f__contact__item {
+    color: #251D1A;
+    font-weight: bold;
   }
   .footer .footer__content .f__info {
     padding: 30px 0;

@@ -37,11 +37,11 @@
 
       & img {
         width: 250px;
-        z-index: 1;
 
         &:hover {
           transform: scale(1.8);
           transition-duration: 2s;
+          z-index: 1;
         }
       }
     }
@@ -67,6 +67,42 @@
       .fs__img_2 {
         & img {
           width: 170px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .fourth_section {
+    padding: 35px 0;
+
+    &__content {
+      .fs__title {
+        font-size: 20px;
+      }
+
+      .fs__img {
+        margin-top: 10px;
+        height: 100%;
+      }
+
+      .second_title {
+        margin-top: 35px;
+      }
+
+      .fs__img_2 {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
+        & img {
+          width: 60%;
+
+          &:hover {
+            transform: scale(1.4);
+            z-index: 1;
+          }
         }
       }
     }

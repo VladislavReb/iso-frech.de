@@ -146,6 +146,9 @@ body {
     font-weight: bold;
     color: #EFE7E2;
   }
+  .header .mob_header__content > a:hover {
+    color: #faa633;
+  }
   .header .mob_header__content > img {
     align-self: end;
   }
@@ -200,6 +203,19 @@ body {
     font-size: 35px;
   }
 }
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .first_section__content .main__img {
+    height: 530px;
+    width: 290%;
+    margin-left: -280px;
+  }
+  .first_section__content .main__title {
+    top: 300px;
+  }
+  .first_section__content h1 {
+    font-size: 30px;
+  }
+}
 .second_section {
   margin-top: -100px;
   padding: 170px 0 70px 0;
@@ -244,6 +260,23 @@ body {
   }
   .second_section__content .secs__content {
     padding-top: 5px;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .second_section {
+    padding: 145px 0 35px 0;
+  }
+  .second_section__content .secs__title {
+    font-size: 20px;
+  }
+  .second_section__content .secs__title_2 {
+    font-size: 20px;
+  }
+  .second_section__content .secs__text {
+    padding: 15px 0;
+  }
+  .second_section__content .secs__content {
+    flex-direction: column;
   }
 }
 .third_section__content {
@@ -354,6 +387,39 @@ body {
     font-size: 20px;
   }
 }
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .third_section__content {
+    padding: 35px 0;
+  }
+  .third_section__content .ts__main_info__title {
+    font-size: 20px;
+  }
+  .third_section__content .ts__img {
+    padding: 25px 0 35px;
+  }
+  .third_section__content .ts__img__photo {
+    width: 100%;
+  }
+  .third_section__content .ts__img__text {
+    max-width: 370px;
+    padding: 5px;
+    left: 15px;
+    gap: 15px;
+  }
+  .third_section__content .ts__img__text_item {
+    max-width: 140px;
+  }
+  .third_section__content .ts__img__text_item h4, .third_section__content .ts__img__text_item p {
+    font-size: 11px;
+    text-align: center;
+  }
+  .third_section__content .ts__add_info {
+    padding: 15px 0 10px;
+  }
+  .third_section__content .ts__add_info__title {
+    font-size: 20px;
+  }
+}
 .fourth_section {
   padding: 70px 0;
   background-color: #251D1A;
@@ -388,11 +454,11 @@ body {
 }
 .fourth_section__content .fs__img_2 img {
   width: 250px;
-  z-index: 1;
 }
 .fourth_section__content .fs__img_2 img:hover {
   transform: scale(1.8);
   transition-duration: 2s;
+  z-index: 1;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -411,6 +477,33 @@ body {
   }
   .fourth_section__content .fs__img_2 img {
     width: 170px;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .fourth_section {
+    padding: 35px 0;
+  }
+  .fourth_section__content .fs__title {
+    font-size: 20px;
+  }
+  .fourth_section__content .fs__img {
+    margin-top: 10px;
+    height: 100%;
+  }
+  .fourth_section__content .second_title {
+    margin-top: 35px;
+  }
+  .fourth_section__content .fs__img_2 {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .fourth_section__content .fs__img_2 img {
+    width: 60%;
+  }
+  .fourth_section__content .fs__img_2 img:hover {
+    transform: scale(1.4);
+    z-index: 1;
   }
 }
 .footer {
@@ -541,14 +634,16 @@ body {
 }
 @media screen and (min-width: 412px) and (max-width: 767px) {
   .footer .footer_img {
-    display: none;
+    width: 300%;
+    margin-left: -400px;
   }
   .footer .footer__content .f__contact {
-    position: static;
+    top: 55px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 5px;
     padding: 15px 10px;
+    background-color: transparent;
   }
   .footer .footer__content .f__contact div {
     display: flex;
@@ -556,12 +651,16 @@ body {
     gap: 15px;
   }
   .footer .footer__content .f__contact img {
-    width: 35px;
-    height: 35px;
+    width: 28px;
+    height: 28px;
   }
   .footer .footer__content .f__contact .f__title {
     font-size: 20px;
-    text-align: center;
+    color: #251D1A;
+  }
+  .footer .footer__content .f__contact .f__contact__item {
+    color: #251D1A;
+    font-weight: bold;
   }
   .footer .footer__content .f__info {
     padding: 30px 0;

@@ -99,6 +99,10 @@
         font-size: 19px;
         font-weight: bold;
         color: $mt_color;
+
+        &:hover {
+          color: $orange_color;
+        }
       }
 
       & > img {

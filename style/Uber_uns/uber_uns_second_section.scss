@@ -57,3 +57,27 @@
     }
   }
 }
+
+@media screen and (min-width: 412px) and (max-width: 767px) {
+  .second_section {
+    padding: 145px 0 35px 0;
+
+    &__content {
+      .secs__title {
+        font-size: 20px;
+
+        &_2 {
+          font-size: 20px;
+        }
+      }
+
+      .secs__text {
+        padding: 15px 0;
+      }
+
+      .secs__content {
+        flex-direction: column;
+      }
+    }
+  }
+}

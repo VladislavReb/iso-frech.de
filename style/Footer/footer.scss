@@ -172,16 +172,18 @@
 @media screen and (min-width: 412px) and (max-width: 767px) {
   .footer {
     .footer_img {
-      display: none;
+      width: 300%;
+      margin-left: -400px;
     }
 
     .footer__content {
       .f__contact {
-        position: static;
+        top: 55px;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 5px;
         padding: 15px 10px;
+        background-color: transparent;
 
         & div {
           display: flex;
@@ -190,13 +192,18 @@
         }
 
         & img {
-          width: 35px;
-          height: 35px;
+          width: 28px;
+          height: 28px;
         }
 
         .f__title {
           font-size: 20px;
-          text-align: center;
+          color: $bkg_color_2;
+        }
+
+        .f__contact__item {
+          color: $bkg_color_2;
+          font-weight: bold;
         }
       }
 

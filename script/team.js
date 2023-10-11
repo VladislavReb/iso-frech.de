@@ -38,7 +38,7 @@ const targetElemFiliale = document.querySelector('.sec__filiale');
 
 const optionsRender = {
     root: null,
-    threshold: 1,
+    threshold: 0.5,
 };
 
 const optionsRender2 = {
