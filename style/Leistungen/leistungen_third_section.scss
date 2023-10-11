@@ -254,7 +254,56 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 411px) {
+@media screen and (min-width: 380px) and (max-width: 411px) {
+  .third_section {
+    padding: 15px 5px 5px;
+
+    &__content {
+      .ts__title {
+        font-size: 20px;
+      }
+
+      .image_slider {
+        min-height: 400px;
+        max-width: 350px;
+        gap: 70px;
+
+        .slide {
+          filter: blur(0);
+          margin: 0 35px 10px 35px;
+          padding: 25px;
+          gap: 10px;
+          background-color: $bkg_color_2;
+          width: 315px;
+          height: 410px;
+          box-shadow: 5px 5px 5px black;
+        }
+      }
+
+      .array, .array_2 {
+        top: 135px;
+      }
+
+      .array {
+        right: 90px;
+      }
+
+      .array_2 {
+        left: 90px;
+      }
+
+      .slick-center {
+        transform: scale(1);
+      }
+
+      .slick-track {
+        padding: 15px 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 379px) {
   .third_section {
     padding: 15px 5px 5px;
 

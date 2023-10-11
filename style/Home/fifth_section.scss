@@ -137,7 +137,37 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 411px) {
+@media screen and (min-width: 380px) and (max-width: 411px) {
+  .fifth_section {
+    padding: 25px 0;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      .fifs__description {
+        flex-direction: column;
+        gap: 47px;
+
+        .fifs__separ {
+          display: none;
+        }
+
+        .fifs__text {
+          text-align: center;
+        }
+      }
+
+      .fifs__videobox > iframe {
+        width: 370px;
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 379px) {
   .fifth_section {
     padding: 25px 0;
 

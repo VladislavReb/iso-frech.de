@@ -122,7 +122,27 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 411px) {
+@media screen and (min-width: 380px) and (max-width: 411px) {
+  .first_section {
+    &__content {
+      .main__img {
+        width: 270%;
+        height: 580px;
+      }
+
+      .main__title {
+        top: 330px;
+        max-width: 230px;
+      }
+
+      & h1 {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 379px) {
   .first_section {
     &__content {
       .main__img {
