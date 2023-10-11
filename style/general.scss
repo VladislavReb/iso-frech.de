@@ -51,7 +51,17 @@ body {
   }
 }
 
-@media screen and (min-width: 412px) and (max-width: 768px) {
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  * {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 590px;
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 594px) {
   * {
     font-size: 14px;
   }

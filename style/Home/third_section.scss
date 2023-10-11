@@ -139,7 +139,45 @@
   }
 }
 
-@media screen and (min-width: 412px) and (max-width: 767px) {
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  .third_section {
+    padding: 25px 0;
+
+    &__content {
+      .ts__title {
+        font-size: 20px;
+      }
+
+      .ts__services {
+        padding: 25px 5px 10px;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        gap: 35px;
+
+        &::-webkit-scrollbar {
+          width: 0;
+        }
+
+        .ts__service {
+          min-height: 350px;
+          min-width: 240px;
+
+
+          &__img {
+            width: 63px;
+            height: 63px;
+          }
+
+          &__title {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 594px) {
   .third_section {
     padding: 25px 0;
 

@@ -62,7 +62,29 @@
   }
 }
 
-@media screen and (min-width: 412px) and (max-width: 768px) {
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  .first_section {
+    &__content {
+      .main__img {
+        height: 100%;
+      }
+
+      .main__title {
+        top: 160px;
+      }
+
+      & h1 {
+        font-size: 35px;
+      }
+    }
+
+    &__content_2 {
+      padding: 35px 0;
+    }
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 594px) {
   .first_section {
     &__content {
       .main__img {

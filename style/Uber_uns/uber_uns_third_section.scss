@@ -138,7 +138,53 @@
   }
 }
 
-@media screen and (min-width: 412px) and (max-width: 767px) {
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  .third_section {
+    &__content {
+      padding: 35px 0;
+
+      .ts__main_info {
+        &__title {
+          font-size: 20px;
+        }
+      }
+
+      .ts__img {
+        padding: 25px 0 35px;
+
+        &__photo {
+          width: 100%;
+        }
+
+        &__text {
+          max-width: 670px;
+          padding: 5px;
+          left: 65px;
+          gap: 15px;
+
+          &_item {
+            max-width: 140px;
+
+            & h4, & p {
+              font-size: 11px;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .ts__add_info {
+        padding: 15px 0 10px;
+
+        &__title {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 594px) {
   .third_section {
     &__content {
       padding: 35px 0;
