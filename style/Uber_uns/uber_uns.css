@@ -60,6 +60,15 @@ body {
     max-width: 400px;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 411px) {
+  * {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 310px;
+  }
+}
 .header {
   padding: 10px 10px 10px 0;
 }
@@ -176,7 +185,7 @@ body {
   }
   .header .mob_header__logo > img {
     width: 155px;
-    height: 65px;
+    height: 70px;
   }
   .header .mob_header__dash {
     margin: 3px 10px 0 0;
@@ -190,6 +199,82 @@ body {
   }
   .header .mob_header__dash div {
     width: 32px;
+    height: 3px;
+    background-color: #EFE7E2;
+    flex-shrink: 0;
+  }
+  .header .mob_header__content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    min-width: 320px;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 45px;
+    padding: 30px 15px 65px;
+    background-color: #333;
+    transform: translateY(-150%);
+    /*animation: header 2s forwards;*/
+  }
+  @keyframes header {
+    0% {
+      transform: translateY(-150%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes headerBack {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-150%);
+    }
+  }
+  .header .mob_header__content > a {
+    font-size: 19px;
+    font-weight: bold;
+    color: #EFE7E2;
+  }
+  .header .mob_header__content > a:hover {
+    color: #faa633;
+  }
+  .header .mob_header__content > img {
+    align-self: end;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 411px) {
+  .header {
+    padding: 5px;
+  }
+  .header .nav_bar {
+    display: none;
+  }
+  .header .mob_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .mob_header__logo > img {
+    width: 155px;
+    height: 70px;
+  }
+  .header .mob_header__dash {
+    margin: 3px 10px 0 0;
+    width: 34px;
+    height: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .header .mob_header__dash div {
+    width: 30px;
     height: 3px;
     background-color: #EFE7E2;
     flex-shrink: 0;
@@ -314,6 +399,20 @@ body {
     font-size: 30px;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 411px) {
+  .first_section__content .main__img {
+    height: 490px;
+    width: 350%;
+    margin-left: -290px;
+  }
+  .first_section__content .main__title {
+    top: 300px;
+    max-width: 210px;
+  }
+  .first_section__content h1 {
+    font-size: 30px;
+  }
+}
 .second_section {
   margin-top: -100px;
   padding: 170px 0 70px 0;
@@ -363,6 +462,23 @@ body {
 @media screen and (min-width: 412px) and (max-width: 767px) {
   .second_section {
     padding: 145px 0 35px 0;
+  }
+  .second_section__content .secs__title {
+    font-size: 20px;
+  }
+  .second_section__content .secs__title_2 {
+    font-size: 20px;
+  }
+  .second_section__content .secs__text {
+    padding: 15px 0;
+  }
+  .second_section__content .secs__content {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 411px) {
+  .second_section {
+    padding: 130px 0 25px 0;
   }
   .second_section__content .secs__title {
     font-size: 20px;
@@ -438,6 +554,7 @@ body {
   color: #faa633;
   font-size: 24px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 @media screen and (min-width: 1920px) {
@@ -551,6 +668,39 @@ body {
     font-size: 20px;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 411px) {
+  .third_section__content {
+    padding: 25px 0;
+  }
+  .third_section__content .ts__main_info__title {
+    font-size: 20px;
+  }
+  .third_section__content .ts__img {
+    padding: 25px 0 75px;
+  }
+  .third_section__content .ts__img__photo {
+    width: 100%;
+  }
+  .third_section__content .ts__img__text {
+    max-width: 370px;
+    padding: 5px;
+    left: 0;
+    gap: 15px;
+  }
+  .third_section__content .ts__img__text_item {
+    max-width: 140px;
+  }
+  .third_section__content .ts__img__text_item h4, .third_section__content .ts__img__text_item p {
+    font-size: 11px;
+    text-align: center;
+  }
+  .third_section__content .ts__add_info {
+    padding: 15px 0 10px;
+  }
+  .third_section__content .ts__add_info__title {
+    font-size: 20px;
+  }
+}
 .fourth_section {
   padding: 70px 0;
   background-color: #251D1A;
@@ -638,6 +788,32 @@ body {
 @media screen and (min-width: 412px) and (max-width: 594px) {
   .fourth_section {
     padding: 35px 0;
+  }
+  .fourth_section__content .fs__title {
+    font-size: 20px;
+  }
+  .fourth_section__content .fs__img {
+    margin-top: 10px;
+    height: 100%;
+  }
+  .fourth_section__content .second_title {
+    margin-top: 35px;
+  }
+  .fourth_section__content .fs__img_2 {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .fourth_section__content .fs__img_2 img {
+    width: 60%;
+  }
+  .fourth_section__content .fs__img_2 img:hover {
+    transform: scale(1.4);
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 411px) {
+  .fourth_section {
+    padding: 25px 0;
   }
   .fourth_section__content .fs__title {
     font-size: 20px;
@@ -861,7 +1037,49 @@ body {
     font-size: 15px;
   }
   .footer .footer__content .f__info {
-    padding: 30px 0;
+    padding: 15px 0;
+    justify-content: space-around;
+  }
+  .footer .footer__content .f__info__1 {
+    display: none;
+  }
+  .footer .footer__content .f__info__2 a {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 411px) {
+  .footer .footer_img {
+    width: 320%;
+    margin-left: -360px;
+  }
+  .footer .footer__content .f__contact {
+    top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px 10px;
+    background-color: transparent;
+  }
+  .footer .footer__content .f__contact div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .footer .footer__content .f__contact img {
+    width: 28px;
+    height: 28px;
+  }
+  .footer .footer__content .f__contact .f__title {
+    font-size: 20px;
+    color: #251D1A;
+  }
+  .footer .footer__content .f__contact .f__contact__item {
+    color: #251D1A;
+    font-weight: 800;
+    font-size: 15px;
+  }
+  .footer .footer__content .f__info {
+    padding: 15px 0;
     justify-content: space-around;
   }
   .footer .footer__content .f__info__1 {

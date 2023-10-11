@@ -176,3 +176,49 @@
     }
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 411px) {
+  .second_section {
+    padding: 125px 0 25px 0;
+
+    &__content {
+      gap: 25px;
+
+      .worker {
+        width: 110px;
+        gap: 3px;
+
+        & > p, & > h6 {
+          font-size: 12px;
+          text-align: center;
+        }
+
+        & > img {
+          width: 80px;
+          height: 80px;
+
+          &:hover {
+            transform: scale(1.4);
+          }
+        }
+      }
+
+      .sec__title {
+        font-size: 20px;
+      }
+
+      .sec__boss {
+        gap: 0;
+
+        &__item > img {
+          width: 80px !important;
+          height: 80px !important;
+        }
+      }
+
+      .sec__office, .sec__filiale {
+        gap: 15px;
+      }
+    }
+  }
+}

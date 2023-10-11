@@ -65,6 +65,7 @@
         color: $orange_color;
         font-size: 24px;
         margin-bottom: 10px;
+        text-align: center;
       }
     }
   }
@@ -206,6 +207,52 @@
           max-width: 370px;
           padding: 5px;
           left: 15px;
+          gap: 15px;
+
+          &_item {
+            max-width: 140px;
+
+            & h4, & p {
+              font-size: 11px;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .ts__add_info {
+        padding: 15px 0 10px;
+
+        &__title {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 411px) {
+  .third_section {
+    &__content {
+      padding: 25px 0;
+
+      .ts__main_info {
+        &__title {
+          font-size: 20px;
+        }
+      }
+
+      .ts__img {
+        padding: 25px 0 75px;
+
+        &__photo {
+          width: 100%;
+        }
+
+        &__text {
+          max-width: 370px;
+          padding: 5px;
+          left: 0;
           gap: 15px;
 
           &_item {
