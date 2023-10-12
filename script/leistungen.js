@@ -18,7 +18,6 @@ $(document).ready(function(){
         centerPadding: 0,
         nextArrow: '.array',
         prevArrow: '.array_2',
-        variableWidth: true,
         speed: 500,
         responsive: [
             {
