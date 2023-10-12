@@ -17,8 +17,8 @@ $(document).ready(function(){
         centerMode: true,
         centerPadding: 0,
         variableWidth: true,
-        nextArrow: '.array',
-        prevArrow: '.array_2',
+        nextArrow: '.arrow',
+        prevArrow: '.arrow_2',
         speed: 500,
         responsive: [
             {
@@ -40,35 +40,45 @@ $(document).ready(function(){
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    nextArrow: false,
+                    prevArrow: false,
                 }
             },
             {
                 breakpoint: 595,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    nextArrow: false,
+                    prevArrow: false,
                 }
             },
             {
                 breakpoint: 412,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    nextArrow: false,
+                    prevArrow: false,
                 }
             },
             {
                 breakpoint: 380,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    nextArrow: false,
+                    prevArrow: false,
                 }
             },
             {
                 breakpoint: 320,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    nextArrow: false,
+                    prevArrow: false,
                 }
             }
         ]

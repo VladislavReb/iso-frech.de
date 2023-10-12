@@ -12,7 +12,7 @@
 
     .ts__text {
       text-align: center;
-      padding: 35px;
+      padding: 35px 0 15px;
     }
 
     .image_slider {
@@ -59,7 +59,7 @@
       }
     }
 
-    .array, .array_2 {
+    .arrow, .arrow_2 {
       cursor: pointer;
       width: 40px;
       height: 40px;
@@ -67,12 +67,12 @@
       top: 390px;
     }
 
-    .array {
+    .arrow {
       transform: rotate(-90deg);
       right: 0;
     }
 
-    .array_2 {
+    .arrow_2 {
       transform: rotate(90deg);
       left: 0;
     }
@@ -134,7 +134,7 @@
         }
       }
 
-      .array, .array_2 {
+      .arrow, .arrow_2 {
         width: 30px;
         height: 30px;
         top: 370px;
@@ -165,6 +165,10 @@
         font-size: 20px;
       }
 
+      .ts__text {
+        padding: 15px 0 10px;
+      }
+
       .image_slider {
         min-height: 400px;
         max-width: 370px;
@@ -182,16 +186,8 @@
         }
       }
 
-      .array, .array_2 {
-        display: none !important;
-      }
-
-      .array {
-        display: none !important;
-      }
-
-      .array_2 {
-        display: none !important;
+      .arrow, .arrow_2 {
+        display: none;
       }
 
       .slick-center {
@@ -214,6 +210,10 @@
         font-size: 20px;
       }
 
+      .ts__text {
+        padding: 15px 0 10px;
+      }
+
       .image_slider {
         min-height: 400px;
         max-width: 350px;
@@ -231,16 +231,8 @@
         }
       }
 
-      .array, .array_2 {
-        display: none !important;
-      }
-
-      .array {
-        display: none !important;
-      }
-
-      .array_2 {
-        display: none !important;
+      .arrow, .arrow_2 {
+        display: none;
       }
 
       .slick-center {
@@ -264,7 +256,7 @@
       }
 
       .ts__text {
-        padding: 15px 0 35px;
+        padding: 15px 0 10px;
       }
 
       .image_slider {
@@ -284,16 +276,8 @@
         }
       }
 
-      .array, .array_2 {
-        display: none !important;
-      }
-
-      .array {
-        display: none !important;
-      }
-
-      .array_2 {
-        display: none !important;
+      .arrow, .arrow_2 {
+        display: none;
       }
 
       .slick-center {
@@ -316,6 +300,11 @@
         font-size: 20px;
       }
 
+      .ts__text {
+        text-align: center;
+        padding: 25px 0 0;
+      }
+
       .image_slider {
         min-height: 400px;
         max-width: 350px;
@@ -333,16 +322,8 @@
         }
       }
 
-      .array, .array_2 {
-        display: none !important;
-      }
-
-      .array {
-        display: none !important;
-      }
-
-      .array_2 {
-        display: none !important;
+      .arrow, .arrow_2 {
+        display: none;
       }
 
       .slick-center {
