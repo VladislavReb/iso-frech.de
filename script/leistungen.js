@@ -16,6 +16,7 @@ $(document).ready(function(){
         autoplaySpeed: 2000,
         centerMode: true,
         centerPadding: 0,
+        variableWidth: true,
         nextArrow: '.array',
         prevArrow: '.array_2',
         speed: 500,
@@ -37,6 +38,34 @@ $(document).ready(function(){
             },
             {
                 breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 595,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 412,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 380,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 320,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
