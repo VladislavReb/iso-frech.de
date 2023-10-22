@@ -1,4 +1,4 @@
-.second_section {
+.third_section {
   margin-top: -100px;
   padding: 170px 0 70px 0;
   background-color: $bkg_color_2;
@@ -88,10 +88,6 @@
   }
 }
 
-.third_section {
-  padding: 70px 0;
-}
-
 @media screen and (min-width: 1920px) {
   .filiale_section__content {
     .fil_img {
@@ -107,12 +103,8 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .second_section {
-    padding: 150px 0 30px 0;
-  }
-
   .third_section {
-    padding: 50px 0 20px;
+    padding: 150px 0 30px 0;
   }
 
   .filiale_section__content {
@@ -163,7 +155,7 @@
 }
 
 @media screen and (min-width: 595px) and (max-width: 767px) {
-  .second_section {
+  .third_section {
     padding: 135px 0 45px 0;
   }
 
@@ -215,14 +207,10 @@
       }
     }
   }
-
-  .third_section {
-    padding: 35px 0;
-  }
 }
 
 @media screen and (min-width: 412px) and (max-width: 594px) {
-  .second_section {
+  .third_section {
     padding: 135px 0 45px 0;
   }
 
@@ -270,14 +258,10 @@
       }
     }
   }
-
-  .third_section {
-    padding: 35px 0;
-  }
 }
 
 @media screen and (min-width: 380px) and (max-width: 411px) {
-  .second_section {
+  .third_section {
     padding: 125px 0 25px 0;
   }
 
@@ -334,14 +318,10 @@
       }
     }
   }
-
-  .third_section {
-    padding: 25px 0;
-  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 379px) {
-  .second_section {
+  .third_section {
     padding: 125px 0 25px 0;
   }
 
@@ -397,9 +377,5 @@
         height: 90px;
       }
     }
-  }
-
-  .third_section {
-    padding: 25px 0;
   }
 }

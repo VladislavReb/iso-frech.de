@@ -57,7 +57,7 @@ body {
   }
 
   .container {
-    max-width: 400px;
+    max-width: 412px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 411px) {
@@ -473,6 +473,7 @@ body {
 .second_section__content .sec__title {
   color: #faa633;
   font-size: 24px;
+  text-align: center;
 }
 .second_section__content .sec__boss {
   display: flex;

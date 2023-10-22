@@ -57,7 +57,7 @@ body {
   }
 
   .container {
-    max-width: 400px;
+    max-width: 412px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 411px) {
@@ -443,6 +443,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 35px;
+  padding-right: 5px;
 }
 .second_section__content .secs__title {
   text-align: center;
