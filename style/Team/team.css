@@ -8,18 +8,22 @@
   font-size: 18px;
 }
 
+body {
+  background-color: #333;
+}
+
 a {
   text-decoration: none;
+}
+
+h1 {
+  margin: 0;
 }
 
 .container {
   max-width: 1080px;
   margin: 0 auto;
   overflow: hidden;
-}
-
-body {
-  background-color: #333;
 }
 
 @media screen and (min-width: 1920px) {
