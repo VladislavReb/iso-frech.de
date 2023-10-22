@@ -1,4 +1,3 @@
-@import "./normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Open+Sans:wght@300;400&family=Paytone+One&display=swap");
 * {
   padding: 0;
@@ -509,7 +508,7 @@ body {
   text-align: center;
 }
 .third_section__content .ts__services {
-  padding: 45px 5px 10px;
+  padding: 45px 10px 10px 0;
   display: flex;
   justify-content: space-between;
 }
