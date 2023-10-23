@@ -1,4 +1,9 @@
 .first_section {
+
+  & a {
+    color: $orange_color;
+  }
+
   &__content {
     overflow: hidden;
 

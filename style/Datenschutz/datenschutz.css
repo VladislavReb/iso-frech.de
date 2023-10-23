@@ -335,6 +335,9 @@ h1 {
     align-self: end;
   }
 }
+.first_section a {
+  color: #faa633;
+}
 .first_section__content {
   overflow: hidden;
 }
