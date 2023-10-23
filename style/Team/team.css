@@ -390,7 +390,7 @@ h1 {
   .first_section__content .main__img {
     height: 480px;
     width: 170%;
-    margin-left: -230px;
+    margin-left: 0;
   }
   .first_section__content .main__title {
     top: 300px;
@@ -403,7 +403,7 @@ h1 {
   .first_section__content .main__img {
     height: 530px;
     width: 260%;
-    margin-left: -230px;
+    margin-left: -30px;
   }
   .first_section__content .main__title {
     top: 300px;
@@ -416,7 +416,7 @@ h1 {
   .first_section__content .main__img {
     height: 490px;
     width: 260%;
-    margin-left: -290px;
+    margin-left: -10px;
   }
   .first_section__content .main__title {
     top: 300px;
@@ -430,7 +430,7 @@ h1 {
   .first_section__content .main__img {
     height: 490px;
     width: 320%;
-    margin-left: -310px;
+    margin-left: -40px;
   }
   .first_section__content .main__title {
     top: 300px;
