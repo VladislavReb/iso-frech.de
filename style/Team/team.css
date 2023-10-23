@@ -389,8 +389,8 @@ h1 {
 @media screen and (min-width: 595px) and (max-width: 767px) {
   .first_section__content .main__img {
     height: 480px;
-    width: 180%;
-    margin-left: -280px;
+    width: 170%;
+    margin-left: -230px;
   }
   .first_section__content .main__title {
     top: 300px;
@@ -402,8 +402,8 @@ h1 {
 @media screen and (min-width: 412px) and (max-width: 594px) {
   .first_section__content .main__img {
     height: 530px;
-    width: 290%;
-    margin-left: -590px;
+    width: 260%;
+    margin-left: -230px;
   }
   .first_section__content .main__title {
     top: 300px;
@@ -415,7 +415,7 @@ h1 {
 @media screen and (min-width: 380px) and (max-width: 411px) {
   .first_section__content .main__img {
     height: 490px;
-    width: 300%;
+    width: 260%;
     margin-left: -290px;
   }
   .first_section__content .main__title {
@@ -429,8 +429,8 @@ h1 {
 @media screen and (min-width: 320px) and (max-width: 379px) {
   .first_section__content .main__img {
     height: 490px;
-    width: 350%;
-    margin-left: -290px;
+    width: 320%;
+    margin-left: -310px;
   }
   .first_section__content .main__title {
     top: 300px;
